@@ -8,3 +8,5 @@ variable "codestar_connector_credentials" {
 
 variable "terraform_bucket" {
   type = string
+
+}
