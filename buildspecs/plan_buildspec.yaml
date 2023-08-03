@@ -1,0 +1,11 @@
+version: 0.2
+phases:
+  pre-build:
+    command:
+      - terraform init
+      - terraform validate
+  
+
+  build:
+    command:
+    - terraform plan
